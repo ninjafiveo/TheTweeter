@@ -99,6 +99,7 @@
             this.Tweet_BTN.TabIndex = 5;
             this.Tweet_BTN.Text = "Tweet";
             this.Tweet_BTN.UseVisualStyleBackColor = true;
+            this.Tweet_BTN.Click += new System.EventHandler(this.Tweet_BTN_Click);
             // 
             // Form1
             // 
@@ -115,6 +116,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "The Tweeter";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
