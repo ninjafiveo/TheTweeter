@@ -87,6 +87,7 @@
             this.Tweet_RichTextBox.Size = new System.Drawing.Size(403, 247);
             this.Tweet_RichTextBox.TabIndex = 4;
             this.Tweet_RichTextBox.Text = "Enter Your Tweet Here:";
+            this.Tweet_RichTextBox.TextChanged += new System.EventHandler(this.Tweet_RichTextBox_TextChanged);
             this.Tweet_RichTextBox.Enter += new System.EventHandler(this.Tweet_RichTextBox_Enter);
             // 
             // Tweet_BTN
